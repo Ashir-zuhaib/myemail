@@ -1,0 +1,27 @@
+{
+  "name": "emailhome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/msal-node": "^2.9.0",
+    "@elastic/elasticsearch": "^8.13.1",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "path": "^0.12.7",
+    "simple-oauth2": "^5.0.0"
+  }
+}
